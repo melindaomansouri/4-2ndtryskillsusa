@@ -92,11 +92,15 @@ body{
     left:88%;
     background-color:#AA2020;
     padding:3%;
+    display:flex;
+    justify-self:flex-end;
 
 }
 #rentButton a{
     text-decoration:none;
     text-decoration:none;
     color:white;
-    font-size:24pt;
+    font-size:34pt;
+    display:inline;
+    justify-self:flex-end;
 }
