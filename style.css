@@ -86,3 +86,17 @@ body{
     z-index:2;
     background-color:white;
 }
+#rentButton{
+    position:fixed;
+    float:right;
+    left:88%;
+    background-color:#AA2020;
+    padding:3%;
+
+}
+#rentButton a{
+    text-decoration:none;
+    text-decoration:none;
+    color:white;
+    font-size:24pt;
+}
