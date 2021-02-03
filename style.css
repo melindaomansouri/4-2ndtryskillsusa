@@ -49,6 +49,10 @@ body{
     position:fixed;
     display:flex;
     flex-direction:column;
+    z-index:2;
+}
+.sidebar a{
+    
 }
 #logo{
     width:8vw;
@@ -72,7 +76,7 @@ body{
     position:fixed;
     display:flex;
     justify-content:space-around;
-    z-index:1;
+    z-index:0;
     justify-items:center;
     background-color:transparent;
         left:49%;
@@ -92,11 +96,43 @@ body{
     left:88%;
     background-color:#AA2020;
     padding:3%;
+    display:flex;
+    justify-self:flex-end;
+    z-index:10;
 
 }
 #rentButton a{
     text-decoration:none;
     text-decoration:none;
     color:white;
-    font-size:24pt;
+    font-size:34pt;
+    display:inline;
+    justify-self:flex-end;
+    z-index:10;
+}
+.subsection{
+    display:flex;
+    flex-direction:row;
+    
+}
+.desc{
+    width:50%;
+    padding:5px;
+    text-align:right;
+    padding-left:10%;
+}
+.desc img{
+    max-width:50%;
+    height:auto;
+}
+.wildlife{
+    width:50%;
+    background-color:#BDB038;
+    color:white;
+    padding:5px;
+    padding-right:10%;
+}
+.wildlife img{
+    width:50%;
+    height:auto;
 }
