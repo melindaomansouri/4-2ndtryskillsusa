@@ -4,6 +4,9 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "flex";
+    x.style.textDecoration = "none";
+    x.style.fontSize = "32pt";
+    x.style.justifyContent = "center";
   }
 }
 

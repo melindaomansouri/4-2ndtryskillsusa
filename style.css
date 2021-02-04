@@ -80,9 +80,17 @@ body{
     display:flex;
     flex-direction:column;
     z-index:2;
+    justify-content:center;
+    align-items:center;
 }
 .sidebar a{
-    
+    flex-direction:column;
+    text-decoration:none;
+    color:white;
+    font-size:30;
+    border:white 2px solid;
+    padding:3px;
+    margin:2px;
 }
 #logo{
     width:8vw;
@@ -103,7 +111,12 @@ body{
     flex-direction:column;
     text-decoration:none;
     color:white;
-    font-size:32;
+    font-size:32pt;
+
+    
+}
+#sidenav a{
+
 }
 .header h1{
     position:absolute;
