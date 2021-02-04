@@ -3,7 +3,7 @@ body{
     height:100%;
     width:99%;
     z-index:0;
-    background-color:yellow;
+    background-color:#AA2020;
 }
 .header{
     justify-content:space-around;
@@ -21,7 +21,10 @@ body{
     justify-self:center;
     align-self:center;
 }
-.navbar{
+.img{
+    border:white 2px solid;
+}
+#navbar{
     position:fixed;
     display:flex;
     justify-content:space-around;
@@ -35,7 +38,22 @@ body{
     border-bottom:2px white solid;
     
 }
-.navbar a{
+.colorSidebar{
+    position:fixed;
+    display:flex;
+    justify-content:space-around;
+    z-index:1;
+    justify-items:center;
+    background-color:transparent;
+    width:33%;
+    margin:0% 33%;
+    justify-self: center;
+    align-self:center;
+    border-bottom:2px white solid;
+    background-color:white;
+    color:#AA2020;
+}
+#navbar a{
     color:white;
     text-decoration:none;
     position:static;
@@ -46,13 +64,13 @@ body{
     
     
 }
-.navbar a:hover{
+#navbar a:hover{
     background-color:white;
     color:#AA0202;
     margin:none;
 }
 .sidebar{
-    background-color:#AA0202;
+    background-color:#AA2020;
     position:fixed;
     display:flex;
     flex-direction:column;
@@ -149,4 +167,28 @@ body{
 .wildlife img{
     width:50%;
     height:auto;
+}
+.timetable{
+    width:100%;
+    background-color:#AA2020;
+    display:flex;
+    color:white;
+    
+    
+}
+.timetable img{
+    width:33%;
+    height:33%;
+    
+}
+.list{
+    float:right;
+    text-align:center;
+    margin:2%;
+    
+}
+#moveMe{
+    position:static;
+    margin-top:15%;
+    margin-left:5%;
 }

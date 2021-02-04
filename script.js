@@ -6,3 +6,11 @@ function myFunction() {
     x.style.display = "flex";
   }
 }
+
+$(document).on('scroll', function(){
+    if ( $(window).scrollTop() > 30) {
+        $('#navBar').addClass('colorSidebar');
+    } else {
+        $('#navBar').removeClass('colorSidebar');
+    }
+})
