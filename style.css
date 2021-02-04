@@ -1,0 +1,268 @@
+body{
+    margin:none;
+    height:100%;
+    width:99%;
+    z-index:0;
+    background-color:#AA2020;
+}
+.header{
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    margin-left:none;
+}
+#mainVideo{
+    position:static;
+    z-index:-2;
+    width:100%;
+    height:auto;
+    margin:none;
+    display:flex;
+    justify-self:center;
+    align-self:center;
+}
+.img{
+    border:white 2px solid;
+}
+@media screen and (min-width:1,080px){
+    .header{
+        display:none;
+    }
+}
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:space-around;
+    z-index:1;
+    justify-items:center;
+    background-color:transparent;
+    width:33%;
+    margin:0% 33%;
+    justify-self: center;
+    align-self:center;
+    border-bottom:2px white solid;
+    
+}
+.colorSidebar{
+    position:fixed;
+    display:flex;
+    justify-content:space-around;
+    z-index:1;
+    justify-items:center;
+    background-color:transparent;
+    width:33%;
+    margin:0% 33%;
+    justify-self: center;
+    align-self:center;
+    border-bottom:2px white solid;
+    background-color:white;
+    color:#AA2020;
+}
+#navbar a{
+    color:white;
+    text-decoration:none;
+    position:static;
+    padding:1vw;
+    margin:none;
+    z-index:1;
+    transition-duration:.2s;
+    
+    
+}
+#navbar a:hover{
+    background-color:white;
+    color:#AA0202;
+    margin:none;
+}
+.sidebar{
+    background-color:#AA2020;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    z-index:2;
+    justify-content:center;
+    align-items:center;
+}
+.sidebar a{
+    flex-direction:column;
+    text-decoration:none;
+    color:white;
+    font-size:30;
+
+    padding:3px;
+    margin:2px;
+}
+#logo{
+    width:8vw;
+    height:auto;
+    float:left;
+    position:static;
+}
+.icon{
+    position:static;
+    font-size:4vw;
+    align-self:center;
+    color:white;
+    z-index:2;
+    padding:33%;
+}
+#sideNav{
+    display:none;
+    flex-direction:column;
+    text-decoration:none;
+    color:white;
+    font-size:32pt;
+
+    
+}
+#FB + #IG{
+     border:white 2px solid;           
+}
+.header h1{
+    position:absolute;
+    display:flex;
+    justify-content:space-around;
+    z-index:0;
+    justify-items:center;
+    background-color:transparent;
+        left:49%;
+        top:50%;
+    justify-self: center;
+    align-self:center;
+    color:white;
+    font-size:144pt;
+    z-index:0;
+}
+.subsection{
+    z-index:2;
+    background-color:white;
+}
+#rentButton{
+    position:fixed;
+    float:right;
+    left:84%;
+    background-color:#AA2020;
+    padding:3%;
+    display:flex;
+    justify-self:flex-end;
+    z-index:10;
+
+}
+#rentButton a{
+    text-decoration:none;
+    text-decoration:none;
+    color:white;
+    font-size:34pt;
+    display:inline;
+    justify-self:flex-end;
+    z-index:10;
+}
+.subsection{
+    display:flex;
+    flex-direction:row;
+    z-index:10;
+    
+}
+.subsection img{
+    border:white solid 4px;
+    border-radius:15px;    
+}
+.desc{
+    width:49.5%;
+    padding:5px;
+    text-align:right;
+    padding-left:10%;
+    font-size:20pt;
+}
+.desc img{
+    max-width:50%;
+    height:auto;
+}
+.wildlife{
+    width:49.5%;
+    background-color:#AAAAAA;
+    color:white;
+    padding:5px;
+    padding-right:10%;
+    font-size:20pt;
+}
+.wildlife img{
+    width:50%;
+    height:auto;
+}
+.timetable{
+    width:100%;
+    background-color:#AA2020;
+    display:flex;
+    color:white;
+    justify-content: center;
+    flex-direction:row;
+    
+}
+.timetable img{
+    width:33%;
+    height:20%;
+    border:white solid 2px;
+    border-radius:25px;
+    margin-top:2%;
+    
+}
+.list{
+    float:right;
+    text-align:center;
+    margin:2%;
+    font-size:16pt;
+    
+}
+#moveMe{
+    position:static;
+    margin-top:15%;
+    float:right;
+
+}
+.footer{
+    width:100%;
+    background-color:#AA2020;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:white;
+}
+
+.bannerwords {
+    display: flex;
+    justify-content: center;
+    margin-left: ;
+    color:white;
+    margin-bottom: none;
+}
+
+.footerpic {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-top: none;
+
+}
+.footerpic img{
+    width:50%;
+    height:auto;
+    border:white 2px solid;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
