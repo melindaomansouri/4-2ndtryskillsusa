@@ -4,13 +4,17 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "flex";
+    x.style.textDecoration = "none";
+    x.style.fontSize = "32pt";
+    x.style.justifyContent = "center";
   }
 }
 
-$(document).on('scroll', function(){
-    if ( $(window).scrollTop() > 30) {
-        $('#navBar').addClass('colorSidebar');
-    } else {
-        $('#navBar').removeClass('colorSidebar');
-    }
-})
+var nav = document.getElementById('navbar');
+if(window.pageXOffset >= 10){
+    nav.style.backgroundColor='white';
+}
+if(window.pageXOffset < 10){
+    nav.style.backgroundColor='transparent';
+    nav.style.backgroundColor='transparent';
+}
