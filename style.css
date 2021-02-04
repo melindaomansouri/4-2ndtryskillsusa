@@ -226,6 +226,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     color:white;
 }
 
@@ -242,6 +243,12 @@ body{
     justify-content: center;
     padding-top: 70px;
     margin-top: none;
+
+}
+.footerpic img{
+    width:50%;
+    height:auto;
+    border:white 2px solid;
 }
 
 .newsletter {
@@ -252,6 +259,7 @@ body{
 .form {
     display: flex;
     justify-content: center;
+    flex-direction:row;
 }
 
 .copyright {
