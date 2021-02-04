@@ -6,4 +6,3 @@ function myFunction() {
     x.style.display = "flex";
   }
 }
-function 

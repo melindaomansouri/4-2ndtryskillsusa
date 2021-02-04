@@ -1,19 +1,25 @@
 body{
     margin:none;
     height:100%;
-    width:100%;
+    width:99%;
     z-index:0;
+    background-color:yellow;
 }
 .header{
     justify-content:space-around;
     align-content:center;
     align-items:center;
+    margin-left:none;
 }
 #mainVideo{
     position:static;
     z-index:-2;
     width:100%;
     height:auto;
+    margin:none;
+    display:flex;
+    justify-self:center;
+    align-self:center;
 }
 .navbar{
     position:fixed;
@@ -43,6 +49,7 @@ body{
 .navbar a:hover{
     background-color:white;
     color:#AA0202;
+    margin:none;
 }
 .sidebar{
     background-color:#AA0202;
@@ -71,20 +78,24 @@ body{
 #sideNav{
     display:none;
     flex-direction:column;
+    text-decoration:none;
+    color:white;
+    font-size:32;
 }
 .header h1{
-    position:fixed;
+    position:absolute;
     display:flex;
     justify-content:space-around;
     z-index:0;
     justify-items:center;
     background-color:transparent;
         left:49%;
-        top:30%;
+        top:50%;
     justify-self: center;
     align-self:center;
     color:white;
     font-size:144pt;
+    z-index:0;
 }
 .subsection{
     z-index:2;
@@ -93,7 +104,7 @@ body{
 #rentButton{
     position:fixed;
     float:right;
-    left:88%;
+    left:84%;
     background-color:#AA2020;
     padding:3%;
     display:flex;
@@ -113,24 +124,27 @@ body{
 .subsection{
     display:flex;
     flex-direction:row;
+    z-index:10;
     
 }
 .desc{
-    width:50%;
+    width:49.5%;
     padding:5px;
     text-align:right;
     padding-left:10%;
+    font-size:20pt;
 }
 .desc img{
     max-width:50%;
     height:auto;
 }
 .wildlife{
-    width:50%;
-    background-color:#BDB038;
+    width:49.5%;
+    background-color:#AAAAAA;
     color:white;
     padding:5px;
     padding-right:10%;
+    font-size:20pt;
 }
 .wildlife img{
     width:50%;
