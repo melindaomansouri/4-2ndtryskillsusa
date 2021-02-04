@@ -24,6 +24,11 @@ body{
 .img{
     border:white 2px solid;
 }
+@media screen and (min-width:1,080px){
+    .header{
+        display:none;
+    }
+}
 #navbar{
     position:fixed;
     display:flex;
@@ -145,6 +150,10 @@ body{
     z-index:10;
     
 }
+.subsection img{
+    border:white solid 4px;
+    border-radius:15px;    
+}
 .desc{
     width:49.5%;
     padding:5px;
@@ -173,22 +182,28 @@ body{
     background-color:#AA2020;
     display:flex;
     color:white;
-    
+    justify-content: center;
+    flex-direction:row;
     
 }
 .timetable img{
     width:33%;
-    height:33%;
+    height:20%;
+    border:white solid 2px;
+    border-radius:25px;
+    margin-top:2%;
     
 }
 .list{
     float:right;
     text-align:center;
     margin:2%;
+    font-size:16pt;
     
 }
 #moveMe{
     position:static;
     margin-top:15%;
-    margin-left:5%;
+    float:right;
+
 }
