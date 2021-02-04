@@ -192,3 +192,42 @@ body{
     margin-top:15%;
     margin-left:5%;
 }
+
+.footer{
+    width:100%;
+    background-color:#AA2020;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    color:white;
+}
+
+.bannerwords {
+    display: flex;
+    justify-content: center; 
+    margin-left: ; 
+    color:white; 
+    margin-bottom: none; 
+}
+
+.footerpic {
+    display: flex; 
+    justify-content: center;
+    padding-top: 70px; 
+    margin-top: none;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center; 
+}
+
+.form {
+    display: flex;
+    justify-content: center; 
+}
+
+.copyright {
+    display: flex;
+    justify-content: center; 
+}
